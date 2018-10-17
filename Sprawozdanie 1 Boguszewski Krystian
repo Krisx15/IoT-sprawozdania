@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{color}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage{latexsym}
+\usepackage{enumerate}
+\title{\huge Sprawozdanie z pierwszych laboratoriow IoT }
+\frenchspacing
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{Formatowanie tekstu} 
+\begin{itemize}
+\huge \item  Rodzaje czcionek \newline
+\textit{Italics} \\
+\textmd{Medium weight} \\
+\textup{Upright} \\
+\textbf{Boldface} \\
+\texttt{Typewriter} \\ \\ \\ \\ \\
+\huge   Wielkosc czcionki \newline \\
+\\
+\normalsize Czcionka automatyczna \newline \\
+\large Czcionka large  \newline \\
+\Large Czcionka Large  \newline \\
+\huge Czcionka huge  \newline \\ 
+\small Czcionka small  \newline \\
+\tiny Bardzo mala czcionka \newline \\
+
+
+
+\huge   Kolorowanie tekstu \newline \large
+{\color{red} Tu bedzie tekst czerwony} \\
+{\color{green} Tu bedzie tekst zielony}\\
+{\color{blue} Tu bedzie tekst niebieski}\\
+{\color{yellow} Tu bedzie tekst zulty}\\
+
+\huge   Pogrubienie, kursywa, podkreslenie\newline \\ 
+\large \textbf{Czcionka pogrubiona} \\
+\textit{Czcionka pochylona}\\ 
+\uline{Tekst podkreslony pojedyncza linia}\\
+\uuline{Tekst podkreslony podwojna linia}\\
+
+ \huge Centrowanie tekstu\newline
+\begin{flushleft}
+\large Text do lewej
+\end{flushleft}
+\begin{center}
+\large Tekst na srodku
+\end{center}
+\begin{flushright}
+\large Tekst do prawej
+\end{flushright}
+\end{itemize}
+\section{Formatowanie Tabel}
+\begin{flushleft}
+
+\large  Kontener \newline \\ 
+\begin{tabular}{|p{4.7cm}|} \hline
+abc
+\\ \hline
+\end{tabular}
+\\
+\large Tabela z 3 wierszmai i kolumnami \newline \\
+\begin{tabular}{|r|l|r|} \hline
+a&  b & c \\
+a & b & b   \\ \hline
+a & b & c \\
+\hline 
+a & b & c \\
+\hline 
+\end{tabular}
+\end{flushleft}
+
+
+\section{Wzory}
+Prosty wzor\\
+\begin{displaymath}
+c^{2}=a^{2}+b^{2}
+\end{displaymath}
+Trodny wzor
+
+$$
+\lim_{n \to \infty}
+\sum_{k=1}^n \frac{1}{k^2}
+= \frac{\pi^3}{10}
+$$
+\section{Bibliografia}
+
+\begin{thebibliography}{1}
+
+\url http://latex-kurs.x25.pl// \\
+\url https://pl.wikibooks.org/wiki/LaTeX\\
+ \url https://www.latex-project.org/get/
+
+\end{thebibliography}
+
+
+\end{document}
